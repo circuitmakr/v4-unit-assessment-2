@@ -12,3 +12,126 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+*,::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 12px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 1%;
+    width: 40vw;
+    margin-right: 0;
+
+}
+li{
+   margin-left: 5vw;
+}
+nav{
+    align-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    height: 5vh;
+    width:40vw;
+    margin-top: 1.25rem;
+}
+.main_menu{
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+
+}
+.header_title{
+    margin-top: 0.5rem;
+    color: rgb(42, 171, 226);
+    margin-left: 2%;
+}
+.body_container{
+    height:200vh;
+    width:100vw;
+}
+main{
+    margin:auto;
+    width:75vw;
+    height:100%;
+
+}
+main article{
+    width: 45vw;
+}
+.sidebar{
+    position: absolute;
+    flex-flow: column;
+    display: flex;
+    align-content: center;
+    margin-left: 50%;
+    margin-right: 0;
+    height: 200vh;
+    width: 30vw;
+}
+.pop_articles{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 70%;
+    padding: 1em;
+    height: 60vh;
+    border-radius: .5em;
+    box-shadow: 0px 0px 16px 10px rgba(102, 75, 75, .3);
+}
+.id_box{
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1em;
+    height: 45vh;
+    border-radius: .5em;
+    margin-top: 3rem;
+    box-shadow: 0px 0px 16px 10px rgba(102, 75, 75, .3);
+}
+
+footer{
+    align-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(42, 171, 226) ;
+}
+.lower_container{
+    height: 57vh;
+    width: 47vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.video_box{
+    position: relative;
+    width: 14vw;
+    height: 25vh;
+}
+aside{
+    margin-left: 52%;
+    color:rgb(42, 171, 226);
+}
+.learnmsg{
+margin-left: 2%;
+font-size: 18px;
+}
+.helpimg{
+    margin-right: 8%;
+}
